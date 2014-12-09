@@ -1,0 +1,26 @@
+
+body {
+ background: url('../img/dw2.png');
+ background-attachment: relative;
+}
+
+img {
+  border: 5px solid #601147;
+  border-radius: 20%;
+  height: 30%;
+  width: 60%;
+  -ms-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+img:hover {
+  border-radius: 5%;
+  height: 95%;
+  width: 95%; 
+}
+
+ul {
+  list-style-type: none;
+}
